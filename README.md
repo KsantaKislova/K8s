@@ -39,5 +39,7 @@ Apply deployment to run your application in ArgoCD
 ```sh
 kubectl apply -f argocd/applications/kuber.yaml
 ```
+<img width="698" alt="Screenshot 2023-06-15 at 13 35 40" src="https://github.com/KsantaKislova/K8s/assets/55740985/b2c5cb2d-e3d1-4c7b-9a00-6740930e6702">
+
 <img width="1505" alt="Screenshot 2023-06-15 at 13 25 57" src="https://github.com/KsantaKislova/K8s/assets/55740985/c5ac5313-332f-42fb-91c3-14ef94d252d3">
 

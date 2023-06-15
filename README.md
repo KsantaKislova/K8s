@@ -31,4 +31,13 @@ kubectl apply -f argocd/projects/dev.yaml
 ## 3. Create k8s resources you want to add
 You can check them also by following this path: dev/kuber/deployment.yaml and dev/kuber/svc.yaml
 
-## 4. 
+## 4. Create ArgoCD deployment
+Create a config with links to your github.com repository (check how I did it here: argocd/applications/kuber.yaml)
+
+## 5. Run application
+Apply deployment to run your application in ArgoCD 
+```sh
+kubectl apply -f argocd/applications/kuber.yaml
+```
+<img width="1505" alt="Screenshot 2023-06-15 at 13 25 57" src="https://github.com/KsantaKislova/K8s/assets/55740985/c5ac5313-332f-42fb-91c3-14ef94d252d3">
+
